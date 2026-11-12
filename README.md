@@ -10,6 +10,15 @@ berbahasa Indonesia — format 9:16 untuk YouTube Shorts, Instagram Reels, dan T
 Skill ditulis dalam Bahasa Indonesia karena seluruh naskah, caption, dan arahan produksinya
 memang berbahasa Indonesia.
 
+> **Agent AI yang membaca repo ini:** buka [AGENTS.md](AGENTS.md) lebih dulu. File itu berisi
+> kontrak `$SERIAL_ROOT`, cara pasang ke tiap runtime, aturan isi yang tidak boleh dilanggar,
+> dan daftar berkas yang dirujuk skill tetapi **sengaja tidak** ikut dipublikasikan.
+
+> **Repo ini berisi pengetahuan, bukan tooling siap jalan.** Skill merujuk 31 berkas skrip;
+> hanya 3 yang ada di sini (`serial-animasi/scripts/`). Mesin pipeline (`gen_suara.py`,
+> `render.py`, `_mesin_omni.py`, `bangun.sh`, dst.) hidup di workspace produksi masing-masing
+> dan tidak disertakan. Perintah pipeline di dalam skill tidak akan jalan dari repo ini.
+
 ## Isi repo
 
 | skill | dipakai saat |
