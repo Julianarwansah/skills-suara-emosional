@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.wav
+*.mp3
+*.mp4
+*.png
+*.jpg
+_kerja/
+video/
+sampul/
